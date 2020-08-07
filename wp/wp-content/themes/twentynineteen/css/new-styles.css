@@ -1,0 +1,362 @@
+h1, h2, h3, h4, h5, h6, p, a, i button{
+  font-family: "Roboto", sans-serif;
+}
+h1:not(.site-title):before, h2:before{
+  display: none !important;
+  content:'';
+}
+
+.site-header {
+  margin: 0;
+  padding: 1rem 0 0!important;
+}
+
+.container-full-main {
+  margin: 0 auto;
+  padding: 0;
+  width: 1100px;
+  position: relative;
+}
+.header-logo {
+  width: 300px;
+  position: relative;
+}
+
+.col-md-4 ul,.col-md-2 ul,.col-md-3 ul {
+  list-style: none;
+}
+
+i.fa {
+  color: #2b2b2b;
+  font-size: 14px;
+}
+
+.col-md-3 span,.col-md-4 span,.col-md-2 span {
+  color: #a5a5a5;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 0;
+}
+
+span.headphones,span.mobile, span.email {
+  padding-left: 10px;
+}
+
+.col-md-3 span.details a,.col-md-4 span.details a, .col-md-2 span.details a {
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.navigation {
+  display: flex;
+  padding: 10px;
+}
+nav{
+  width: 100%;
+}
+
+.social-nav {
+  padding-top: 5px;
+}
+
+.nav-box {
+  display: flex;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #4c4c4c 0%, #171717 100%);
+}
+
+ul#menu-primary-menu {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+ul#menu-primary-menu li a {
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto", Sans-serif;
+  white-space: nowrap;
+}
+
+.header-banner-main {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.container-full {
+  padding: 10em;
+  text-align:center;
+  color: #fff;
+  font-family: "Roboto", Sans-serif;
+}
+
+h1.banner-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.banner-description-box p {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.container-full button {
+  display: inline-block;
+  line-height: 1;
+  font-size: 15px;
+  padding: 20px 30px;
+  border-radius: 3px;
+  color: #fff;
+  fill: #fff;
+  text-align: center;
+  transition: all .3s;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #333333;
+}
+
+h2.welcome {
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #474747;
+}
+
+.description {
+  color: #383838;
+  font-weight: 400;
+  text-align: center;
+  font-size: 18px;
+}
+
+.section.third-section, .fifth-section,section.testimonial {
+  background-color: #f4f4f4;
+}
+
+section {
+  padding: 10px 0 5px;
+}
+
+.gallery-box img{
+  width: 100%;
+}
+
+section.contact-form-box {
+  background-image: linear-gradient(180deg, #504dd3 0%, #3c39a7 100%);
+}
+footer#colophon {
+  background-image: linear-gradient(180deg, #2a2a2a 0%, #161616 100%);
+}
+
+.footer-main-container{
+  text-align: center;
+}
+.footer-main-container h3 {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.footer-main-container a{
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-second{
+  color: #fff;
+  margin-top: 10px;
+}
+.contactform {
+  padding: 5em 0;
+  color: #fff;
+}
+
+h2.contact-form-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.contact-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-form input[type="text"]{
+  width: 100%;
+}
+
+input#fname {
+  width: 48%;
+}
+
+input#lname {
+  width: 48%;
+  margin-left: 3%;
+}
+
+.contact-form ul li {
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: 700;
+  font-size: inherit;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+}
+.consent{
+  font-weight: 700;
+  font-size: inherit;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+}
+
+section.services h3 {
+  color: #424242;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+section.services p {
+  font-size: 18px;
+}
+
+.readmore {
+  line-height: 1;
+  background-color: #282828;
+  font-size: 15px;
+  padding: 20px 30px;
+  border-radius: 3px;
+  color: #fff;
+  fill: #fff;
+  text-align: center;
+}
+.contact-form span {
+  color: red;
+}
+.contact-form span.agree{
+  color: #ffffff;
+}
+
+.contactform input.submit {
+  padding: 30px 45px ;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1779ba;
+  color: #fefefe;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+.registered p, .copyright p {
+  font-size: 17px;
+}
+.footer-main-container .container-full-main {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+section.services {
+  margin-bottom: 40px;
+}
+section.gallery-main {
+  padding-top: 0;
+}
+
+.col-md-5.logo {
+  padding-left: 0;
+  padding-bottom: 20px;
+  padding-right: 0;
+  vertical-align: middle;
+}
+
+.col-md-2 {
+  margin-top: 30px;
+}
+
+.banner-description-box {
+  margin-bottom: 60px;
+}
+
+.facebook-icon a{
+  background-color: #848484;
+  font-size: 15px;
+  border-radius: 10%;
+  padding: 10px 15px;
+  color: #2b2b2b;
+}
+
+.first-section li,.second-section li,.third-section li {
+  line-height: 1.3;
+}
+.row::before {
+  display: none !important;
+}
+
+.testimonybox {
+  background: #fff;
+  border-radius: 25px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.testimonybox p {
+  padding: 16px;
+  text-align: center;
+  font-size: 16px;
+  color: #383838;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+p.name {
+  color: #383838;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+}
+p.name:before {
+  content: "— ";
+  white-space: pre;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+}
+
+p.details {
+  color: #4054b2;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Roboto Slab", Sans-serif;
+  font-size: 16px;
+}
+
+button.readmore:hover {
+  background: #4054b2;
+}
+
+.contactform input.submit:hover {
+  background: #1779babd;
+}
